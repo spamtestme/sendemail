@@ -5,6 +5,8 @@ into a docker image. Sends an email using remote SMTP server.
 
 ## Usage
 
+Send an email using remote SMTP server at `mail.spamtest.me:25` using SMTP authentication:
+
 ```
 docker run spamtest.me/sendemail    \
     -f average.joe@spamtest.me      \
@@ -21,7 +23,6 @@ Run with `-h` to show all available options:
 ```
 docker run spamtest.me/sendemail -h
 ```
-
 
 ## License
 
