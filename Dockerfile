@@ -4,4 +4,4 @@ RUN apt-get update \
     && apt-get -y install sendemail \
     && rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT /usr/bin/sendemail
+ENTRYPOINT ["/usr/bin/sendemail"]
